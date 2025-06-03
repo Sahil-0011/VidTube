@@ -127,7 +127,7 @@ const registerUser = asyncHandler(async (req, res) => {
 });
 
 
-const loginUser = asyncHandler(async (req , res) => {
+const loggedInUser = asyncHandler(async (req , res) => {
     //get data from body
 
     const {email, username, password} = req.body
